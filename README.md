@@ -13,7 +13,7 @@ Run the following command to install via Composer:
 ```bash
 composer require cnaebadi/persian-faker
 
-Usage
+## Usage
 Here's how you can use the package in your Laravel project:
 use Cnaebadi\PersianFaker\Faker\PersianFaker;
 use Faker\Factory as FakerFactory;
