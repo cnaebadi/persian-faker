@@ -34,7 +34,7 @@ echo $persianFaker->randomAddress(); // Outputs a random Persian address
 
 ## Methods
 The following methods are available for generating fake data:
-
+```bash
 randomLandlinePhonePrefix(): Generate a random landline phone prefix.
 randomMobilePhonePrefix(): Generate a random mobile phone prefix.
 randomWord(): Generate a random Persian word.
@@ -46,7 +46,7 @@ randomStreet(): Generate a random street name.
 randomProtocol(): Generate a random protocol (http, https).
 randomDomain(): Generate a random domain.
 randomFullName(): Generate a random Persian full name.
-
+```
 ## License
 This package is open-source and licensed under the MIT license.
 
@@ -86,7 +86,7 @@ echo $persianFaker->randomAddress(); // تولید یک آدرس تصادفی ف
 ```
 ## متدها
 متدهای موجود برای تولید داده‌های تصادفی:
-
+```bash
 randomLandlinePhonePrefix(): تولید پیش‌شماره تلفن ثابت تصادفی.
 randomMobilePhonePrefix(): تولید پیش‌شماره موبایل تصادفی.
 randomWord(): تولید یک کلمه تصادفی.
@@ -98,5 +98,6 @@ randomStreet(): تولید یک نام خیابان تصادفی.
 randomProtocol(): تولید یک پروتکل تصادفی (http، https).
 randomDomain(): تولید یک دامنه تصادفی.
 randomFullName(): تولید یک نام کامل تصادفی فارسی.
+```
 ## مجوز
 این پکیج متن‌باز است و تحت مجوز MIT منتشر شده است.
