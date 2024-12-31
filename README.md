@@ -34,8 +34,7 @@ echo $persianFaker->randomAddress(); // Outputs a random Persian address
 
 ## Methods
 The following methods are available for generating fake data:
-```bash
-### Methods
+
 
 #### `randomFullName()`
 Generates a random full name in Persian.  
@@ -149,7 +148,6 @@ Example: `بانک ملی`
 Generates a random bank name in English.  
 Example: `Mellat Bank`
 
-```
 ## License
 This package is open-source and licensed under the MIT license.
 
@@ -189,118 +187,119 @@ echo $persianFaker->randomAddress(); // تولید یک آدرس تصادفی ف
 ```
 ## متدها
 متدهای موجود برای تولید داده‌های تصادفی:
-```bash
-randomLandlinePhonePrefix(): string
 
-توضیحات: پیش‌وند تصادفی شماره تلفن ثابت را برمی‌گرداند.
 
-randomMobilePhonePrefix(): string
+#### `randomFullName()`
+یک نام کامل تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `محمد رضا احمدی`
 
-توضیحات: پیش‌وند تصادفی شماره تلفن همراه را برمی‌گرداند.
+#### `randomEnglishFullName()`
+یک نام کامل تصادفی به زبان انگلیسی تولید می‌کند.  
+مثال: `Sina Mohammadi`
 
-randomWord(): string
+#### `randomFirstName()`
+یک نام کوچک تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `زهرا`
 
-توضیحات: یک کلمه تصادفی از لیست کلمات پیش‌فرض تولید می‌کند.
+#### `randomEnglishFirstName()`
+یک نام کوچک تصادفی به زبان انگلیسی تولید می‌کند.  
+مثال: `Ali`
 
-randomSentence(): string
+#### `randomLastName()`
+یک نام خانوادگی تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `کاظمی`
 
-توضیحات: یک جمله تصادفی تولید می‌کند.
+#### `randomEnglishLastName()`
+یک نام خانوادگی تصادفی به زبان انگلیسی تولید می‌کند.  
+مثال: `Karimi`
 
-randomParagraph(): string
+#### `randomMaleFirstName()`
+یک نام کوچک مردانه تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `حسین`
 
-توضیحات: یک پاراگراف تصادفی تولید می‌کند.
+#### `randomEnglishMaleFirstName()`
+یک نام کوچک مردانه تصادفی به زبان انگلیسی تولید می‌کند.  
+مثال: `Reza`
 
-randomState(): string
+#### `randomFemaleFirstName()`
+یک نام کوچک زنانه تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `نرگس`
 
-توضیحات: یک استان تصادفی از لیست استان‌های پیش‌فرض برمی‌گرداند.
+#### `randomEnglishFemaleFirstName()`
+یک نام کوچک زنانه تصادفی به زبان انگلیسی تولید می‌کند.  
+مثال: `Sara`
 
-randomCity(): string
+#### `randomJobTitle()`
+یک عنوان شغلی تصادفی تولید می‌کند.  
+مثال: `مهندس نرم‌افزار`
 
-توضیحات: یک شهر تصادفی از لیست شهرهای پیش‌فرض برمی‌گرداند.
+#### `randomAddress()`
+یک آدرس تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `تهران، خیابان ولیعصر، کوچه احمدی، پلاک 5، واحد 2`
 
-randomStreet(): string
+#### `randomLandlinePhone()`
+یک شماره تلفن ثابت تصادفی تولید می‌کند.  
+مثال: `02112345678`
 
-توضیحات: یک نام خیابان تصادفی تولید می‌کند.
+#### `randomMobilePhone()`
+یک شماره تلفن همراه تصادفی تولید می‌کند.  
+مثال: `09123456789`
 
-randomProtocol(): string
+#### `randomEmail()`
+یک ایمیل تصادفی تولید می‌کند.  
+مثال: `sina.mohammadi@gmail.com`
 
-توضیحات: یک پروتکل تصادفی (مانند http یا https) برمی‌گرداند.
+#### `randomNationalCode()`
+یک کد ملی تصادفی تولید می‌کند.  
+مثال: `1234567890`
 
-randomDomain(): string
+#### `randomPostalCode()`
+یک کد پستی تصادفی تولید می‌کند.  
+مثال: `1234567890`
 
-توضیحات: یک نام دامنه تصادفی تولید می‌کند.
+#### `randomDate()`
+یک تاریخ تصادفی به فرمت `YYYY/MM/DD` تولید می‌کند.  
+مثال: `1399/05/21`
 
-randomMaleFirstName(): string
+#### `randomWord()`
+یک کلمه تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `دوست`
 
-توضیحات: یک نام کوچک مردانه تصادفی تولید می‌کند.
+#### `randomSentence()`
+یک جمله تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `او کتاب خود را خواند.`
 
-randomEnglishMaleFirstName(): string
+#### `randomParagraph()`
+یک پاراگراف تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `این یک پاراگراف نمونه است که شامل کلمات مختلف می‌باشد.`
 
-توضیحات: یک نام کوچک مردانه انگلیسی تصادفی تولید می‌کند.
+#### `randomState()`
+یک استان تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `تهران`
 
-randomFemaleFirstName(): string
+#### `randomCity()`
+یک شهر تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `اصفهان`
 
-توضیحات: یک نام کوچک زنانه تصادفی تولید می‌کند.
+#### `randomStreet()`
+یک خیابان تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `خیابان حافظ`
 
-randomEnglishFemaleFirstName(): string
+#### `randomProtocol()`
+یک پروتکل تصادفی (مثل http یا https) تولید می‌کند.  
+مثال: `https`
 
-توضیحات: یک نام کوچک زنانه انگلیسی تصادفی تولید می‌کند.
+#### `randomDomain()`
+یک دامنه تصادفی تولید می‌کند.  
+مثال: `example.com`
 
-randomLastName(): string
+#### `randomBank()`
+یک نام بانک تصادفی به زبان فارسی تولید می‌کند.  
+مثال: `بانک ملی`
 
-توضیحات: یک نام خانوادگی تصادفی تولید می‌کند.
+#### `randomEnglishBank()`
+یک نام بانک تصادفی به زبان انگلیسی تولید می‌کند.  
+مثال: `Mellat Bank`
 
-randomEnglishLastName(): string
-
-توضیحات: یک نام خانوادگی انگلیسی تصادفی تولید می‌کند.
-
-randomFullName(): string
-
-توضیحات: یک نام کامل تصادفی (نام کوچک و نام خانوادگی) تولید می‌کند.
-
-randomEnglishFullName(): string
-
-توضیحات: یک نام کامل انگلیسی تصادفی تولید می‌کند.
-
-randomJobTitle(): string
-
-توضیحات: یک عنوان شغلی تصادفی تولید می‌کند.
-
-randomLandlinePhone(): string
-
-توضیحات: یک شماره تلفن ثابت تصادفی تولید می‌کند.
-
-randomMobilePhone(): string
-
-توضیحات: یک شماره تلفن همراه تصادفی تولید می‌کند.
-
-randomNationalCode(int $length = 10): string
-
-توضیحات: یک کد ملی تصادفی تولید می‌کند.
-
-randomAddress(): string
-
-توضیحات: یک آدرس تصادفی به فرمت فارسی تولید می‌کند.
-
-randomPostalCode(): string
-
-توضیحات: یک کد پستی تصادفی تولید می‌کند.
-
-randomDate(): string
-
-توضیحات: یک تاریخ تصادفی تولید می‌کند.
-
-randomEmail(): string
-
-توضیحات: یک آدرس ایمیل تصادفی تولید می‌کند.
-
-randomBank(): string
-
-توضیحات: یک نام بانک تصادفی از لیست بانک‌های پیش‌فرض برمی‌گرداند.
-
-randomEnglishBank(): string
-
-توضیحات: یک نام بانک انگلیسی تصادفی تولید می‌کند.
-```
 ## مجوز
 این پکیج متن‌باز است و تحت مجوز MIT منتشر شده است.
