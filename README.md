@@ -12,6 +12,7 @@ Run the following command to install via Composer:
 
 ```bash
 composer require cnaebadi/persian-faker
+```
 
 ## Usage
 Here's how you can use the package in your Laravel project:
@@ -29,7 +30,7 @@ echo $persianFaker->randomFullName(); // Outputs a random Persian full name
 echo $persianFaker->randomLandlinePhone(); // Outputs a random landline phone number
 echo $persianFaker->randomAddress(); // Outputs a random Persian address
 
-Methods
+## Methods
 The following methods are available for generating fake data:
 
 randomLandlinePhonePrefix(): Generate a random landline phone prefix.
@@ -44,7 +45,7 @@ randomProtocol(): Generate a random protocol (http, https).
 randomDomain(): Generate a random domain.
 randomFullName(): Generate a random Persian full name.
 
-License
+## License
 This package is open-source and licensed under the MIT license.
 
 ```markdown
