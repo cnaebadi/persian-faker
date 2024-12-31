@@ -16,6 +16,7 @@ composer require cnaebadi/persian-faker
 
 ## Usage
 Here's how you can use the package in your Laravel project:
+```bash
 use Cnaebadi\PersianFaker\Faker\PersianFaker;
 use Faker\Factory as FakerFactory;
 
@@ -29,6 +30,7 @@ $persianFaker = new PersianFaker($faker);
 echo $persianFaker->randomFullName(); // Outputs a random Persian full name
 echo $persianFaker->randomLandlinePhone(); // Outputs a random landline phone number
 echo $persianFaker->randomAddress(); // Outputs a random Persian address
+```
 
 ## Methods
 The following methods are available for generating fake data:
@@ -48,8 +50,8 @@ randomFullName(): Generate a random Persian full name.
 ## License
 This package is open-source and licensed under the MIT license.
 
-```markdown
-# Persian Faker
+
+# فیکر فارسی
 
 یک پکیج لاراول برای تولید داده‌های تصادفی فارسی برای تست و توسعه.
 
@@ -63,9 +65,11 @@ This package is open-source and licensed under the MIT license.
 
 ```bash
 composer require cnaebadi/persian-faker
+```
 
-استفاده
+## استفاده
 نمونه‌ای از نحوه استفاده از پکیج در پروژه لاراول:
+```bash
 use Cnaebadi\PersianFaker\Faker\PersianFaker;
 use Faker\Factory as FakerFactory;
 
@@ -79,8 +83,8 @@ $persianFaker = new PersianFaker($faker);
 echo $persianFaker->randomFullName(); // تولید یک نام کامل تصادفی فارسی
 echo $persianFaker->randomLandlinePhone(); // تولید یک شماره تلفن ثابت تصادفی
 echo $persianFaker->randomAddress(); // تولید یک آدرس تصادفی فارسی
-
-متدها
+```
+## متدها
 متدهای موجود برای تولید داده‌های تصادفی:
 
 randomLandlinePhonePrefix(): تولید پیش‌شماره تلفن ثابت تصادفی.
@@ -94,5 +98,5 @@ randomStreet(): تولید یک نام خیابان تصادفی.
 randomProtocol(): تولید یک پروتکل تصادفی (http، https).
 randomDomain(): تولید یک دامنه تصادفی.
 randomFullName(): تولید یک نام کامل تصادفی فارسی.
-مجوز
+## مجوز
 این پکیج متن‌باز است و تحت مجوز MIT منتشر شده است.
