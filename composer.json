@@ -1,0 +1,31 @@
+{
+    "name": "cnaebadi/persian-faker",
+    "description": "A Laravel package for generating Persian fake data, including names, addresses, phone numbers, and more.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cnaebadi\\PersianFaker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sewyed",
+            "email": "seyedamdg@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "fakerphp/faker": "^1.24",
+        "illuminate/support": "^11.36"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cnaebadi\\PersianFaker\\Providers\\PersianFakerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
