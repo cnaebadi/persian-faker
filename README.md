@@ -153,7 +153,7 @@ Example: `Mellat Bank`
 We welcome contributions!  
 To contribute, fork the repository, make your changes, and submit a pull request. Please ensure your code is clean and well-documented. Thank you!
 
-## Acknowledgements
+## Thanks
 
 This project was inspired by my dear friend, Keyvan. I am truly grateful for his guidance and support.
 
