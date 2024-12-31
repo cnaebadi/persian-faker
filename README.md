@@ -87,17 +87,117 @@ echo $persianFaker->randomAddress(); // تولید یک آدرس تصادفی ف
 ## متدها
 متدهای موجود برای تولید داده‌های تصادفی:
 ```bash
-randomLandlinePhonePrefix(): تولید پیش‌شماره تلفن ثابت تصادفی.
-randomMobilePhonePrefix(): تولید پیش‌شماره موبایل تصادفی.
-randomWord(): تولید یک کلمه تصادفی.
-randomSentence(): تولید یک جمله تصادفی.
-randomParagraph(): تولید یک پاراگراف تصادفی.
-randomState(): تولید یک استان تصادفی.
-randomCity(): تولید یک شهر تصادفی.
-randomStreet(): تولید یک نام خیابان تصادفی.
-randomProtocol(): تولید یک پروتکل تصادفی (http، https).
-randomDomain(): تولید یک دامنه تصادفی.
-randomFullName(): تولید یک نام کامل تصادفی فارسی.
+randomLandlinePhonePrefix(): string
+
+توضیحات: پیش‌وند تصادفی شماره تلفن ثابت را برمی‌گرداند.
+
+randomMobilePhonePrefix(): string
+
+توضیحات: پیش‌وند تصادفی شماره تلفن همراه را برمی‌گرداند.
+
+randomWord(): string
+
+توضیحات: یک کلمه تصادفی از لیست کلمات پیش‌فرض تولید می‌کند.
+
+randomSentence(): string
+
+توضیحات: یک جمله تصادفی تولید می‌کند.
+
+randomParagraph(): string
+
+توضیحات: یک پاراگراف تصادفی تولید می‌کند.
+
+randomState(): string
+
+توضیحات: یک استان تصادفی از لیست استان‌های پیش‌فرض برمی‌گرداند.
+
+randomCity(): string
+
+توضیحات: یک شهر تصادفی از لیست شهرهای پیش‌فرض برمی‌گرداند.
+
+randomStreet(): string
+
+توضیحات: یک نام خیابان تصادفی تولید می‌کند.
+
+randomProtocol(): string
+
+توضیحات: یک پروتکل تصادفی (مانند http یا https) برمی‌گرداند.
+
+randomDomain(): string
+
+توضیحات: یک نام دامنه تصادفی تولید می‌کند.
+
+randomMaleFirstName(): string
+
+توضیحات: یک نام کوچک مردانه تصادفی تولید می‌کند.
+
+randomEnglishMaleFirstName(): string
+
+توضیحات: یک نام کوچک مردانه انگلیسی تصادفی تولید می‌کند.
+
+randomFemaleFirstName(): string
+
+توضیحات: یک نام کوچک زنانه تصادفی تولید می‌کند.
+
+randomEnglishFemaleFirstName(): string
+
+توضیحات: یک نام کوچک زنانه انگلیسی تصادفی تولید می‌کند.
+
+randomLastName(): string
+
+توضیحات: یک نام خانوادگی تصادفی تولید می‌کند.
+
+randomEnglishLastName(): string
+
+توضیحات: یک نام خانوادگی انگلیسی تصادفی تولید می‌کند.
+
+randomFullName(): string
+
+توضیحات: یک نام کامل تصادفی (نام کوچک و نام خانوادگی) تولید می‌کند.
+
+randomEnglishFullName(): string
+
+توضیحات: یک نام کامل انگلیسی تصادفی تولید می‌کند.
+
+randomJobTitle(): string
+
+توضیحات: یک عنوان شغلی تصادفی تولید می‌کند.
+
+randomLandlinePhone(): string
+
+توضیحات: یک شماره تلفن ثابت تصادفی تولید می‌کند.
+
+randomMobilePhone(): string
+
+توضیحات: یک شماره تلفن همراه تصادفی تولید می‌کند.
+
+randomNationalCode(int $length = 10): string
+
+توضیحات: یک کد ملی تصادفی تولید می‌کند.
+
+randomAddress(): string
+
+توضیحات: یک آدرس تصادفی به فرمت فارسی تولید می‌کند.
+
+randomPostalCode(): string
+
+توضیحات: یک کد پستی تصادفی تولید می‌کند.
+
+randomDate(): string
+
+توضیحات: یک تاریخ تصادفی تولید می‌کند.
+
+randomEmail(): string
+
+توضیحات: یک آدرس ایمیل تصادفی تولید می‌کند.
+
+randomBank(): string
+
+توضیحات: یک نام بانک تصادفی از لیست بانک‌های پیش‌فرض برمی‌گرداند.
+
+randomEnglishBank(): string
+
+توضیحات: یک نام بانک انگلیسی تصادفی تولید می‌کند.
 ```
 ## مجوز
 این پکیج متن‌باز است و تحت مجوز MIT منتشر شده است.
