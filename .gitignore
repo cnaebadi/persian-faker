@@ -1,0 +1,18 @@
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# Node modules
+/node_modules/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and cache
+/storage/logs/
+/storage/framework/cache/
