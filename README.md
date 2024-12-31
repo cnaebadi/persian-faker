@@ -153,6 +153,9 @@ Example: `Mellat Bank`
 We welcome contributions!  
 To contribute, fork the repository, make your changes, and submit a pull request. Please ensure your code is clean and well-documented. Thank you!
 
+## Acknowledgements
+
+This project was inspired by my dear friend, Keyvan. I am truly grateful for his guidance and support.
 
 ## License
 This package is open-source and licensed under the MIT license.
@@ -306,6 +309,10 @@ echo $persianFaker->randomAddress(); // تولید یک آدرس تصادفی ف
 #### `randomEnglishBank()`
 یک نام بانک تصادفی به زبان انگلیسی تولید می‌کند.  
 مثال: `Mellat Bank`
+
+## تشکر و قدردانی
+
+این پروژه با الهام از دوست عزیزم، کیوان، ساخته شده است. از راهنمایی‌ها و حمایت‌های او بسیار سپاسگزارم.
 
 ## مشارکت
 
