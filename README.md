@@ -35,17 +35,120 @@ echo $persianFaker->randomAddress(); // Outputs a random Persian address
 ## Methods
 The following methods are available for generating fake data:
 ```bash
-randomLandlinePhonePrefix(): Generate a random landline phone prefix.
-randomMobilePhonePrefix(): Generate a random mobile phone prefix.
-randomWord(): Generate a random Persian word.
-randomSentence(): Generate a random Persian sentence.
-randomParagraph(): Generate a random Persian paragraph.
-randomState(): Generate a random Persian state.
-randomCity(): Generate a random Persian city.
-randomStreet(): Generate a random street name.
-randomProtocol(): Generate a random protocol (http, https).
-randomDomain(): Generate a random domain.
-randomFullName(): Generate a random Persian full name.
+### Methods
+
+#### `randomFullName()`
+Generates a random full name in Persian.  
+Example: `محمد رضا احمدی`
+
+#### `randomEnglishFullName()`
+Generates a random full name in English.  
+Example: `Sina Mohammadi`
+
+#### `randomFirstName()`
+Generates a random first name in Persian.  
+Example: `زهرا`
+
+#### `randomEnglishFirstName()`
+Generates a random first name in English.  
+Example: `Ali`
+
+#### `randomLastName()`
+Generates a random last name in Persian.  
+Example: `کاظمی`
+
+#### `randomEnglishLastName()`
+Generates a random last name in English.  
+Example: `Karimi`
+
+#### `randomMaleFirstName()`
+Generates a random male first name in Persian.  
+Example: `حسین`
+
+#### `randomEnglishMaleFirstName()`
+Generates a random male first name in English.  
+Example: `Reza`
+
+#### `randomFemaleFirstName()`
+Generates a random female first name in Persian.  
+Example: `نرگس`
+
+#### `randomEnglishFemaleFirstName()`
+Generates a random female first name in English.  
+Example: `Sara`
+
+#### `randomJobTitle()`
+Generates a random job title.  
+Example: `مهندس نرم‌افزار`
+
+#### `randomAddress()`
+Generates a random address in Persian.  
+Example: `تهران، خیابان ولیعصر، کوچه احمدی، پلاک 5، واحد 2`
+
+#### `randomLandlinePhone()`
+Generates a random landline phone number.  
+Example: `02112345678`
+
+#### `randomMobilePhone()`
+Generates a random mobile phone number.  
+Example: `09123456789`
+
+#### `randomEmail()`
+Generates a random email address.  
+Example: `sina.mohammadi@gmail.com`
+
+#### `randomNationalCode()`
+Generates a random national code.  
+Example: `1234567890`
+
+#### `randomPostalCode()`
+Generates a random postal code.  
+Example: `1234567890`
+
+#### `randomDate()`
+Generates a random date in the format `YYYY/MM/DD`.  
+Example: `1399/05/21`
+
+#### `randomWord()`
+Generates a random Persian word.  
+Example: `دوست`
+
+#### `randomSentence()`
+Generates a random Persian sentence.  
+Example: `او کتاب خود را خواند.`
+
+#### `randomParagraph()`
+Generates a random Persian paragraph.  
+Example: `این یک پاراگراف نمونه است که شامل کلمات مختلف می‌باشد.`
+
+#### `randomState()`
+Generates a random Persian state.  
+Example: `تهران`
+
+#### `randomCity()`
+Generates a random Persian city.  
+Example: `اصفهان`
+
+#### `randomStreet()`
+Generates a random Persian street.  
+Example: `خیابان حافظ`
+
+#### `randomProtocol()`
+Generates a random protocol (e.g., http or https).  
+Example: `https`
+
+#### `randomDomain()`
+Generates a random domain.  
+Example: `example.com`
+
+#### `randomBank()`
+Generates a random bank name in Persian.  
+Example: `بانک ملی`
+
+#### `randomEnglishBank()`
+Generates a random bank name in English.  
+Example: `Mellat Bank`
+
 ```
 ## License
 This package is open-source and licensed under the MIT license.
