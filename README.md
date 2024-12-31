@@ -148,7 +148,7 @@ Example: `بانک ملی`
 Generates a random bank name in English.  
 Example: `Mellat Bank`
 
-### Contribution
+## Contribution
 
 We welcome contributions!  
 To contribute, fork the repository, make your changes, and submit a pull request. Please ensure your code is clean and well-documented. Thank you!
@@ -307,7 +307,7 @@ echo $persianFaker->randomAddress(); // تولید یک آدرس تصادفی ف
 یک نام بانک تصادفی به زبان انگلیسی تولید می‌کند.  
 مثال: `Mellat Bank`
 
-### مشارکت
+## مشارکت
 
 مشارکت شما باعث خوشحالی ماست!  
 برای مشارکت، مخزن را Fork کنید، تغییرات خود را اعمال کرده و یک Pull Request ارسال کنید. لطفاً مطمئن شوید که کد شما تمیز و مستند است. سپاسگزاریم!
