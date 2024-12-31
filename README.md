@@ -105,8 +105,8 @@ Generates a random postal code.
 Example: `1234567890`
 
 #### `randomDate()`
-Generates a random date in the format `YYYY/MM/DD`.  
-Example: `1399/05/21`
+Generates a random date.  
+Example: `1399/5/21`
 
 #### `randomWord()`
 Generates a random Persian word.  
@@ -267,8 +267,8 @@ echo $persianFaker->randomAddress(); // تولید یک آدرس تصادفی ف
 مثال: `1234567890`
 
 #### `randomDate()`
-یک تاریخ تصادفی به فرمت `YYYY/MM/DD` تولید می‌کند.  
-مثال: `1399/05/21`
+یک تاریخ تصادفی تولید می‌کند.  
+مثال: `1399/5/21`
 
 #### `randomWord()`
 یک کلمه تصادفی به زبان فارسی تولید می‌کند.  
