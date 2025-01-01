@@ -155,7 +155,7 @@ To contribute, fork the repository, make your changes, and submit a pull request
 
 ## Thanks
 
-This project was inspired by my dear friend, Keyvan. I am truly grateful for his guidance and support.
+This project was inspired by my dear friend, @Keivan-S . I am truly grateful for his guidance and support.
 
 ## License
 This package is open-source and licensed under the MIT license.
