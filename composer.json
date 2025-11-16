@@ -3,6 +3,7 @@
     "description": "A Laravel package for generating Persian fake data, including names, addresses, phone numbers, and more.",
     "type": "library",
     "license": "MIT",
+    "version": "2.0.0",
     "autoload": {
         "psr-4": {
             "Cnaebadi\\PersianFaker\\": "src/"
